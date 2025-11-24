@@ -125,4 +125,54 @@ body.addEventListener("keyup", function(dets){
 
 
 
+body.addEventListener("click", function(dets){
+   if(dets.target.id === "keyA" ) {
+    let audioA = new Audio("audio/0.mp3");
+    audioA.play();
+   }
 
+   else if(dets.target.id === "keyS") {
+    let audioS = new Audio("audio/1.mp3");
+    audioS.play();
+   }
+
+    else if(dets.target.id === "keyD") {
+    let audioD = new Audio("audio/2.mp3");
+    audioD.play();
+   }
+   
+   else if(dets.target.id === "keyF") {
+    let audioF = new Audio("audio/3.mp3");
+    audioF.play();
+   }
+    else if(dets.target.id === "keyG") {    
+    let audioG = new Audio("audio/4.mp3");
+    audioG.play();
+   }
+   
+   else if(dets.target.id === "keyH") {
+    let audioH = new Audio("audio/5.mp3");  
+    audioH.play();
+   }
+
+    else if(dets.target.id === "keyJ") {  
+    let audioJ = new Audio("audio/6.mp3");
+    audioJ.play();
+   }
+   
+   else if(dets.target.id === "keyK") {
+    let audioK = new Audio("audio/7.mp3");
+    audioK.play();
+   }
+
+    else if(dets.target.id === "keyL") {
+    let audioL = new Audio("audio/8.mp3");
+    audioL.play();
+   }
+
+    else if(dets.target.id === "keySem") {  
+    let audioSemi = new Audio("audio/9.mp3");
+    audioSemi.play();
+   }
+
+})
